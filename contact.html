@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contacts</h1>
+    <p><strong>address:</strong>16/2 new york street</p>
+    <p><strong>Phone no:</strong>001923232</p>
+    <br />
+    <form
+      action="mailto:utkarshchauhan2812@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <!-- when we click the submit button the following mail will be opened...we are posting the date entered by the user to the mail client-->
+      <!-- when we click submit button the browser will take us to the link in the action attribute of the form element-->
+      <label>Your name:</label>
+      <input type="text" name="YourName" />
+
+      <br />
+      <label for="">Your email:</label>
+      <input type="email" name="YourEmail" />
+      <br />
+      <label for="">Your message?</label><br />
+      <textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
